@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#myNavbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 20;
+}
+.navbar-brand img{
+    width: 7em;
+}
+#myJumbotron{
+    background-color: rgb(237, 199, 85);
+    padding-top: 6em;
+    padding-bottom: 0.8em;
+}
+section {
+    padding: 2em 0em;
+}
+#OffersOfTheWeek >div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+#OffersOfTheWeek >div:first-child button{
+    margin: 0em 1em;
+}
+.card{
+    margin: 0.5em;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: greenyellow;
+    margin: 0;
+}
+#welcomeSummer >div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+#welcomeSummer >div:first-child button {
+    margin: 0 1em;
+}
+#welcomeSummer .card{
+    box-shadow: 10px 10px 5px #dedede;
+}
+#todayOffer >div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+#todayOffer >div:first-child button {
+    margin: 0 1em;
+}
+#offertaDelGiorno{
+    width: 100%;
+}
+#lastMinute >div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+#lastMinute >div:first-child button{
+    margin: 0 1em;
+}
+.carousel-inner  p {
+    position: relative;
+    bottom: 3em;
+    background-color: white;
+}
+#testimonial >div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+#testimonial >div:first-child button{
+    margin: 0 1em;
+}
+#testimonial div{
+    text-align: left;
+}
+h4 {
+    margin: 0;
+}
+#travelCounter{
+    color: red;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
